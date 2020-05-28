@@ -3,6 +3,16 @@ This repository contains the modified code from the authors of Meta-Learning wit
 
 **Original Paper**: Flennerhag, S., Rusu, A.A., Pascanu, R., Yin, H. and Hadsell, R., 2019. Meta-Learning with Warped Gradient Descent. arXiv preprint arXiv:1909.00025, Available: https://openreview.net/pdf?id=rkeiQlBFPB
 
+## Running Notes
+To reproduce our reduced meta training parmeter results the number of pretraining tasks and a name for logging must be specified:
+'''
+./run_reduced_meta_params 10 run_name
+'''
+this is also the case for the reduced task parameters:
+'''
+./run_reduced_task_params 10 run_name
+'''
+
 ## Authors
 * **Jack Dymond** [jd5u19@soton.ac.uk]()
 * **Hsuan-Yang Wang** [hw1g11@soton.ac.uk]()
